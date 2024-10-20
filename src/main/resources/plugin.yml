@@ -1,0 +1,35 @@
+name: farmhunt
+version: '${project.version}'
+main: me.sammy.farmhunt.Farmhunt
+api-version: '1.18'
+commands:
+  joingame:
+    description: Join the game
+  startgame:
+    description: Starts the game
+  endgame:
+    description: Ends the game
+  vote:
+    description: Vote for a map
+  setgametime:
+    description: Set the game time
+  forcemap:
+    description: Force select a map
+  leavegame:
+    description: Leave the game
+  setteamassignment:
+    description: Set team assignment mode
+  createmap:
+    description: creates a new map
+  setspawnloc:
+    description: Sets the spawn location of the new map
+  undomap:
+    description: Undo for createmap command
+  deletemap:
+    description: deletes a map from use
+  setwaitingspawn:
+    description: sets up where the players wait when they join a game
+  setlobbyspawn:
+    description: sets where the actual lobby for the server is
+  help:
+    description: Show help
