@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="farmhunt:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/farmhunt_jar</output-path>
+    <root id="archive" name="farmhunt.jar">
+      <element id="module-output" name="farmhunt" />
+    </root>
+  </artifact>
+</component>
